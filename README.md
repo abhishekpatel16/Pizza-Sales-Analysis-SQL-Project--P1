@@ -10,6 +10,11 @@
 
 ### KPI's Requirement
 
+-- 1. Total Revenue
+-- 2. Average Order Value
+-- 3. Total Pizzas Sold
+-- 4. Total Orders
+-- 5. Average Pizzas Per Order
 
 1. **Total Revenue**:
 ```sql
@@ -39,7 +44,25 @@ AS Avg_Pizzas_Per_Order FROM pizza_sales
 ```
 
 
+### Charts Requirement
 
+
+1. **Daily Trend for Total Orders**:
+```sql
+SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales
+```
+
+
+2. **Hourly Trend for Total Orders**:
+```sql
+SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales
+```
+
+
+3. **Percentage of Sales by Pizza Category**:
+```sql
+SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales
+```
 
 
 
