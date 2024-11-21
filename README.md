@@ -12,7 +12,10 @@
 ### Database Setup
 
 - **Database Creation**: The project starts by creating a database named `pizza_db`.
-- **Table Creation**: A table named `pizza_sales` is created to store the sales data. The table structure includes columns for pizza_id, order_id, pizza_name_id, quantity, order_date, order_time, unit_price, total_price, pizza_size, pizza_category, pizza_ingredients
+- **Table Creation**: A table named `pizza_sales` is created to store the sales data. The table structure includes columns for pizza_id, order_id, pizza_name_id, quantity, order_date, order_time, unit_price, total_price, pizza_size, pizza_category and pizza_ingredients.
+
+
+## Problem Statement
 
 ### KPI's Requirement
 
