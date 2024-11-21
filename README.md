@@ -9,6 +9,27 @@
 
 **Tool Used**: MS SQL Server
 
+## Functionalities You Will Learn
+
+- Creating Database
+- Creating Table
+- Select
+- Datename
+- Datepart
+- Cast
+- Decimal
+- Month
+- Hour
+- Quarter
+- Day
+- Group By
+- Order By
+- Limit
+- Count
+- Distinct
+- CTE
+- Partition
+
 
 ## Project Structure
 
