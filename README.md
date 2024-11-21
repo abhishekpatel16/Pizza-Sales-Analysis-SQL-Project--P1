@@ -52,26 +52,56 @@ AS Avg_Pizzas_Per_Order FROM pizza_sales
 
 ### Charts Requirement
 
+-- 1. Daily Trend for Total Orders
+
+-- 2. Hourly Trend for Total Orders
+
+-- 3. Percentage of Sales by Pizza Category
+
+-- 4. Percentage of Sales by Pizza Size
+
+-- 5. Total Pizzas Sold by Pizza Category
+
+-- 6. Top 5 Best Sellers by Revenue, Total Quantity and Total Orders
+
+-- 7. Bottom 5 Best Sellers by Revenue, Total Quantity and Total Orders
+
+
 
 1. **Daily Trend for Total Orders**:
 ```sql
 SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales
 ```
 
-
 2. **Hourly Trend for Total Orders**:
 ```sql
 SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales
 ```
-
 
 3. **Percentage of Sales by Pizza Category**:
 ```sql
 SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales
 ```
 
+4. **Percentage of Sales by Pizza Size**:
+```sql
+SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales
+```
 
+5. **Total Pizzas Sold by Pizza Category**:
+```sql
+SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales
+```
 
+6. **Top 5 Best Sellers by Revenue, Total Quantity and Total Orders**:
+```sql
+SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales
+```
+
+7. **Bottom 5 Best Sellers by Revenue, Total Quantity and Total Orders**:
+```sql
+SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales
+```
 
 
 
