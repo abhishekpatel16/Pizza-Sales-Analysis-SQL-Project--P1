@@ -26,7 +26,7 @@
 ```sql
 SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales
 ```
-![SQL Data Analytics](https://github.com/abhishekpatel16/Pizza-Sales-Analysis-SQL-Project--P1/blob/main/KPI/1%20Total%20Revenue.png)
+![Total Revenue](https://github.com/abhishekpatel16/Pizza-Sales-Analysis-SQL-Project--P1/blob/main/KPI/1%20Total%20Revenue.png)
 
 2. **Average Order Value**:
 ```sql
