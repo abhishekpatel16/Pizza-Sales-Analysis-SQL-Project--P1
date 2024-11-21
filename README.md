@@ -8,3 +8,12 @@
 **Database**: `pizza_db`
 
 
+### KPI's Requirement
+
+
+1. **Total Revenue**:
+```sql
+SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales
+```
+
+
