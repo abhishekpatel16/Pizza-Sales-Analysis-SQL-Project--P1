@@ -7,7 +7,7 @@
 
 **Database**: `pizza_db`
 
-**Tools Used**: MS SQL Server
+**Tool Used**: MS SQL Server
 
 
 ## Project Structure
