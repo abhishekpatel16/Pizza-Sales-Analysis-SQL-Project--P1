@@ -30,8 +30,6 @@ We need to analyze key indicators for our pizza sales data to gain insights into
 
 -- 5. **Average Pizzas Per Order**: The average number of pizzas sold per order, calculated by dividing the total number of pizzas sold by the total number of orders.
 
-
-
 1. **Total Revenue**:
 ```sql
 SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales
@@ -83,7 +81,6 @@ AS Avg_Pizzas_Per_Order FROM pizza_sales
 -- 7. Top 5 Best Sellers by Revenue, Total Quantity and Total Orders
 
 -- 8. Bottom 5 Best Sellers by Revenue, Total Quantity and Total Orders
-
 
 
 1. **Daily Trend for Total Orders**:
