@@ -32,6 +32,8 @@ SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales
 ```sql
 SELECT SUM(total_price) / COUNT(DISTINCT order_id) AS Avg_Order_Value FROM pizza_sales
 ```
+(https://github.com/abhishekpatel16/Pizza-Sales-Analysis-SQL-Project--P1/blob/main/KPI/1%20Total%20Revenue.png)
+
 
 3. **Total Pizzas Sold**:
 ```sql
