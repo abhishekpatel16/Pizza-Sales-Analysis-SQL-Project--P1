@@ -4,7 +4,9 @@
 ## Project Overview
 
 **Project Title**: Pizza Sales Analysis  
+
 **Database**: `pizza_db`
+
 **Tools Used**: MS SQL Server
 
 
