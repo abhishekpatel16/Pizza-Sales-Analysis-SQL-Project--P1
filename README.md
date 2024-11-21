@@ -32,18 +32,20 @@ SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales
 ```sql
 SELECT SUM(total_price) / COUNT(DISTINCT order_id) AS Avg_Order_Value FROM pizza_sales
 ```
-![](https://github.com/abhishekpatel16/Pizza-Sales-Analysis-SQL-Project--P1/blob/main/KPI/1%20Total%20Revenue.png)
-
+![Average Order Value](https://github.com/abhishekpatel16/Pizza-Sales-Analysis-SQL-Project--P1/blob/main/KPI/2%20Avg%20Order%20Value.png)
 
 3. **Total Pizzas Sold**:
 ```sql
 SELECT SUM(quantity) AS Total_Pizzas_Sold FROM pizza_sales
 ```
+![Total Pizzas Sold](https://github.com/abhishekpatel16/Pizza-Sales-Analysis-SQL-Project--P1/blob/main/KPI/3%20Total%20Pizza%20Sold.png)
+
 
 4. **Total Orders**:
 ```sql
 SELECT COUNT(DISTINCT order_id) AS Total_Orders FROM pizza_sales
 ```
+![Total Orders](https://github.com/abhishekpatel16/Pizza-Sales-Analysis-SQL-Project--P1/blob/main/KPI/4%20Total%20Orders.png)
 
 5. **Average Pizzas Per Order**:
 ```sql
@@ -51,6 +53,7 @@ SELECT CAST(CAST(SUM(quantity) AS DECIMAL(10,2)) /
 CAST(COUNT(DISTINCT order_id) AS DECIMAL(10,2)) AS DECIMAL(10,2)) 
 AS Avg_Pizzas_Per_Order FROM pizza_sales
 ```
+![Average Pizzas Per Order](https://github.com/abhishekpatel16/Pizza-Sales-Analysis-SQL-Project--P1/blob/main/KPI/5%20Average%20Pizzas%20Per%20Order.png)
 
 
 ### Charts Requirement
